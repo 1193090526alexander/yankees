@@ -136,10 +136,10 @@ font-size:25px;
     font-family:"poppins", sans-serif;
     border-radius: 8px;
     font-size:23px;
-    width:200px; 
+    width:170px; 
       padding:5px;
       height:50px;
-    margin-left: -150px;
+    margin-left: -200px;
     position:absolute;
     margin-top: 70px;
 
@@ -150,6 +150,29 @@ font-size:25px;
 .boton-1 {
     background-image: linear-gradient(to right, #ee0979 0%, #ff6a00 51%, #ee0979 100%);
 }
+.botonRegistro{
+	border: 1px solid #fff;
+    background-size: 300%;
+    margin-bottom:20px;
+    color: #fff;
+    cursor:pointer;
+    /* text-shadow: 0px 0px 10px rgb(0 0 0 / 20%); */
+    font-family:"poppins", sans-serif;
+    border-radius: 8px;
+    font-size:23px;
+    width:170px; 
+    padding:5px;
+    height:50px;
+    margin-left: -10px;
+    position:absolute;
+    margin-top: 70px;
+
+}
+.boton-2:hover{
+	border: 1px solid #b4b4b4;
+	color:fff;
+}
+
 
 
 
@@ -199,6 +222,18 @@ input[type="submit"]{
 	cursor:pointer;
 	border-radius: 5px;
 	margin-bottom: 0;
+}
+
+.user1{
+	
+	margin-top:20px;
+}
+.usrs{
+	
+	margin-bottom:50px;
+}
+.top{
+	margin-top:-9%;
 }
 input[type="submit"]:hover{
 	opacity: 1;
