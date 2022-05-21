@@ -1,0 +1,101 @@
+html, body{
+    margin: 0;
+    padding: 0;
+}
+
+footer.nb-footer {
+background: #222222;
+border-top: 4px solid #00a2ba; 
+height:80%;
+}
+
+
+
+footer.nb-footer .about {
+margin: 0 auto;
+margin-top: 40px;
+max-width: 1170px;
+
+text-align: center; 
+}
+footer.nb-footer .about p {
+font-size: 13px;
+color: #999;
+margin-top: 30px; 
+}
+footer.nb-footer .about .social-media {
+margin-top: 15px;
+ }
+footer.nb-footer .about .social-media ul li .fa {
+display: inline-block;
+width: 45px;
+height: 45px;
+line-height: 45px;
+border-radius: 50%;
+font-size: 16px;
+color: #00a2ba;
+border: 1px solid rgba(255, 255, 255, 0.3); 
+}
+footer.nb-footer .about .social-media ul li .fa-facebook:hover {
+background:#1773ea;
+color: #fff;
+border-color:#1773ea;
+ }
+ footer.nb-footer .about .social-media ul li .fa-twitter:hover {
+background:#28a8df;
+color: #fff;
+border-color:#28a8df;
+ }
+  footer.nb-footer .about .social-media ul li .fa-google-plus:hover {
+background:#d74735;
+color: #fff;
+border-color:#d74735;
+ }
+   footer.nb-footer .about .social-media ul li .fa-whatsapp:hover {
+background:#00c951;
+color: #fff;
+border-color:#00c951;
+ }
+    footer.nb-footer .about .social-media ul li .fa-instagram:hover {
+    background-image: linear-gradient(to right, #ee0979 0%, #ff6a00 51%, #ee0979 100%);
+color: #fff;
+
+ }
+footer.nb-footer .footer-info-single {
+margin-top: 10px; 
+}
+footer.nb-footer .footer-info-single .title {
+color: #aaa;
+text-transform: ( rgb(255, 255, 255), 255, 255)case;
+font-size: 16px;
+border-left: 4px solid #00a2ba;
+padding-left: 5px;
+margin-bottom: 20px; 
+margin-left: 0px;
+ }
+footer.nb-footer .footer-info-single ul li a {
+display: block;
+color: #aaa;
+padding: 2px 0; 
+}
+footer.nb-footer .footer-info-single ul li a:hover {
+color: #fff; 
+}
+footer.nb-footer .footer-info-single p {
+font-size: 13px;
+line-height: 20px;
+color: #aaa; 
+}
+footer.nb-footer .copyright {
+margin-top: px;
+background: #111;
+padding: 5px 0;
+color: #999; }
+footer.nb-footer .copyright p {
+margin: 0;
+padding: 0; }
+footer.nb-footer .copyright .container{
+	height:40px;
+	margin-bottom:-150px;
+	
+}
