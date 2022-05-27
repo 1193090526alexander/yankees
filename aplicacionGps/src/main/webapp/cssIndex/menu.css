@@ -17,7 +17,7 @@ p{
 .barprincipal{
     position: fixed;
     display: flex;
- background-image: linear-gradient(to right, #00d2ff 0%, #3a7bd5 51%, #00d2ff 100%);
+    background-image: linear-gradient(to right, #00d2ff 0%, #3a7bd5 51%, #00d2ff 100%);
     justify-content: center;
     align-items: center;
     flex-direction: row;
@@ -52,14 +52,14 @@ p{
     font-size:18px;
 }
 .img{
-width: 131.4%;
+width: 100%;
 height: 107vh;
  opacity: 0.7;
 }
 .encima {
     position: absolute;
     top: 50%;
-    left: 70%;
+    left: 50%;
     width:80%;
     transform: translate(-50%, -50%);
 }
@@ -69,15 +69,24 @@ text-align: center;
 line-height:150%;
 font-size:25px;
 }
- .home, .servicios, .contactenos{
-    position: relative;
+.contactenos{
+
     display: flex;
     justify-content: space-around;
     align-items: center;
     flex-wrap: wrap;
     flex-direction: row;
     width: 100%;
-    height: 700px;
+    height: 800px;
+
+
+}
+
+ .home{
+ 
+    height: 800px;
+    width: 100%;
+    
 }
 .text-part{
     width: 65%;
@@ -85,11 +94,18 @@ font-size:25px;
 }        
 .inicio{
     position: relative;
-    display: inline-block;
+
 }
 
 .servicios{
-    background-color: #808080;
+    
+    position: absolute;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+    height: 1500px; 
 }
 .contactenos{
     background-color: #ffffff;
