@@ -1,0 +1,13 @@
+package co.gps.app.wx.init;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+@SpringBootApplication
+public class ApiGpsApplication {
+
+	public static void main(String[] args) {
+		SpringApplication.run(ApiGpsApplication.class, args);
+	}
+
+}
