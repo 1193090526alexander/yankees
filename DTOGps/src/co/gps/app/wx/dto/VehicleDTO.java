@@ -11,6 +11,7 @@ public class VehicleDTO {
 	private DeviceDTO device;
 	private BrandDTO brand;
 	private VehicleStatusDTO vehicleStatus;
+	private VehicleTypeDTO vehicleType;
 	
 	public VehicleDTO() {
 		
@@ -21,6 +22,7 @@ public class VehicleDTO {
 		setDevice(device);
 		setBrand(brand);
 		setVechicleStatus(vehicleStatus);
+		setVehicleType(vehicleType);
 	}
 	
 	
@@ -66,6 +68,17 @@ public class VehicleDTO {
 	public void setVechicleStatus(VehicleStatusDTO vehicleStatus) {
 		this.vehicleStatus = vehicleStatus;
 	}
+
+
+	public VehicleTypeDTO getVehicleType() {
+		return vehicleType;
+	}
+
+
+	public void setVehicleType(VehicleTypeDTO vehicleType) {
+		this.vehicleType = vehicleType;
+	}
+	
 	
 	
 
