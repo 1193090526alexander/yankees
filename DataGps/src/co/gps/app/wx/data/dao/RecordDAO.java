@@ -7,8 +7,7 @@ import co.gps.app.wx.dto.RecordDTO;
 public interface RecordDAO {
 	
 	void create(RecordDTO record);
-	void update(RecordDTO record);
-	void delete(int id);
+	void delete(int code);
 	List<RecordDTO> find(RecordDTO record);
 
 }

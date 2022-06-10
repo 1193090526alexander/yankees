@@ -10,8 +10,9 @@ public class VehicleDTO {
 	private String model;
 	private DeviceDTO device;
 	private BrandDTO brand;
-	private VehicleStatusDTO vehicleStatus;
+	private ColorDTO color;
 	private VehicleTypeDTO vehicleType;
+	private VehicleStatusDTO vehicleStatus;
 	
 	public VehicleDTO() {
 		
@@ -21,7 +22,7 @@ public class VehicleDTO {
 		setModel(UtilText.EMPTY);
 		setDevice(device);
 		setBrand(brand);
-		setVechicleStatus(vehicleStatus);
+		setColor(color);
 		setVehicleType(vehicleType);
 	}
 	
@@ -62,11 +63,11 @@ public class VehicleDTO {
 	public void setBrand(BrandDTO brand) {
 		this.brand = brand;
 	}
-	public VehicleStatusDTO getVehicleStatus() {
-		return vehicleStatus;
+	public ColorDTO getColor() {
+		return color;
 	}
-	public void setVechicleStatus(VehicleStatusDTO vehicleStatus) {
-		this.vehicleStatus = vehicleStatus;
+	public void setColor(ColorDTO vehicleStatus) {
+		this.color = vehicleStatus;
 	}
 
 
@@ -77,6 +78,16 @@ public class VehicleDTO {
 
 	public void setVehicleType(VehicleTypeDTO vehicleType) {
 		this.vehicleType = vehicleType;
+	}
+
+
+	public VehicleStatusDTO getVehicleStatus() {
+		return vehicleStatus;
+	}
+
+
+	public void setVehicleStatus(VehicleStatusDTO vehicleStatus) {
+		this.vehicleStatus = vehicleStatus;
 	}
 	
 	
