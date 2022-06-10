@@ -37,9 +37,9 @@ public class IdTypePostgreSqlDAO extends ConnectionSQL implements IdTypeDAO {
 			preparedStatement.executeUpdate();
 
 		} catch (SQLException exception) {
-			throw GpsException.buildTechnicalDataException("There was a problem trying to create the new IdType on Azure SQL Server", exception);
+			throw GpsException.buildTechnicalDataException("There was a problem trying to create the new IdType on PostgreSQL", exception);
 		} catch (Exception exception) {
-			throw GpsException.buildTechnicalDataException("An unexpected problem has ocurred trying to create the new IdType on Azure SQL Server", exception);
+			throw GpsException.buildTechnicalDataException("An unexpected problem has ocurred trying to create the new IdType on PostgreSQL", exception);
 		}
 	}
 
@@ -55,11 +55,11 @@ public class IdTypePostgreSqlDAO extends ConnectionSQL implements IdTypeDAO {
 			
 			} catch (SQLException exception) {
 			
-				throw GpsException.buildTechnicalDataException("There was a problem trying to update the new IdType on Azure SQL Server", exception);
+				throw GpsException.buildTechnicalDataException("There was a problem trying to update the new IdType on PostgreSQL", exception);
 			
 			} catch (Exception exception) {
 			
-				throw GpsException.buildTechnicalDataException("An unexpected problem has ocurred trying to update the new IdType on Azure SQL Server", exception);
+				throw GpsException.buildTechnicalDataException("An unexpected problem has ocurred trying to update the new IdType on PostgreSQL", exception);
 
 			}
 	}
@@ -76,11 +76,11 @@ String sql = "DELETE FROM IdType WHERE id = ?";
 			
 		} catch (SQLException exception) {
 			
-			throw GpsException.buildTechnicalDataException("There was a problem trying to create the new IdType on Azure SQL Server", exception);
+			throw GpsException.buildTechnicalDataException("There was a problem trying to create the new IdType on PostgreSQL", exception);
 			
 		} catch (Exception exception) {
 			
-			throw GpsException.buildTechnicalDataException("An unexpected problem has ocurred trying to create the new IdType on Azure SQL Server", exception);
+			throw GpsException.buildTechnicalDataException("An unexpected problem has ocurred trying to create the new IdType on PostgreSQL", exception);
 			
 		}
 		
@@ -143,11 +143,11 @@ String sql = "DELETE FROM IdType WHERE id = ?";
 				
 			} catch (SQLException exception) {
 				
-				throw GpsException.buildTechnicalDataException("There was a problem trying to execute the query to recovery IdType on Azure SQL Server", exception);
+				throw GpsException.buildTechnicalDataException("There was a problem trying to execute the query to recovery IdType on PostgreSQL", exception);
 				
 			} catch (Exception exception) {
 				
-				throw GpsException.buildTechnicalDataException("An unexpected problem has ocurred trying to execute the query to recovery IdType on Azure SQL Server", exception);		
+				throw GpsException.buildTechnicalDataException("An unexpected problem has ocurred trying to execute the query to recovery IdType on PostgreSQL", exception);		
 			}
 		  
 		     return results;
