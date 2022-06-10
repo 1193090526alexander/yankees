@@ -1,5 +1,8 @@
 package co.gps.app.wx.dto;
 
+import java.util.ArrayList;
+import java.util.List;
+
 public class DeviceDTO {
 	
 	private int reference;
@@ -37,6 +40,22 @@ public class DeviceDTO {
 
 	public void setDeviceStatus(DeviceStatusDTO deviceStatus) {
 		this.deviceStatus = deviceStatus;
+	}
+	public void validateName(List<String> validationMessages) {
+
+		validationMessages = UtilObject.getUtilObject().getDefault(validationMessages, new ArrayList<>());
+
+		if (UtilText.isEmpty(getName())) {
+
+			validationMessages.add("Name of device is required");
+
+		} else if (UtilText.getDefault(getName()).length() > 50) {
+
+			validationMessages.add("The lenght of the name of device must be less than 50 charecters");
+
+		} else if (!UtilText.getDefault(getName()).matches("^[a-zA-ZñÑáÁéÉíÍóÓúÚ ]*$")) {
+			validationMessages.add("The name of device has not valid characters");
+		}
 	}
 
 }
